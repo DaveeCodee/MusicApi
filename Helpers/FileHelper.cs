@@ -33,7 +33,7 @@ namespace MusicApi.Helpers
 
 
 
-            Console.WriteLine("Listing blobs...");
+            Console.WriteLine("Listing blobs.");
 
             // List all blobs in the container
             await foreach (BlobItem blobItem in containerClient.GetBlobsAsync())
